@@ -51,6 +51,8 @@ CONFIG_I2C_CHARDEV=m
 CONFIG_DRM_I915=m
 
 # Bluetooth
+CONFIG_EXTRA_FIRMWARE="qca/htbtfw20.tlv qca/htnv20.bin"
+CONFIG_EXTRA_FIRMWARE_DIR="/lib/firmware"
 CONFIG_BT=m
 CONFIG_BT_HCIBTUSB=m
 
